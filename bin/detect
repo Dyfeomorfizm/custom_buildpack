@@ -10,7 +10,7 @@ else
   # v3 API
   APP_DIR=$(pwd)
 fi
-
+echo APP_DIR
 if [ -f "$APP_DIR/decidim_applications/Gemfile" ]; then
   echo "Ruby"
   exit 0
